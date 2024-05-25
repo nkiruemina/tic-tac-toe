@@ -1,0 +1,28 @@
+#grid {
+    display: flex;
+    width: 310px;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+
+
+
+
+
+/* heirarchy of rule application
+Topmost priority= id
+next precedencd = class
+final precedence =  tag name 
+*/
